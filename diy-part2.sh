@@ -23,3 +23,6 @@ rm -rf ../lean/luci-theme-argon
 
 git clone --depth=1 https://github.com/rufengsuixing/luci-app-onliner.git
 popd
+
+# remove openvpn script security level limit
+sed -i '/--script-security/d' /package/network/services/openvpn/files/openvpn.init
