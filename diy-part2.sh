@@ -27,4 +27,4 @@ git clone --depth=1 https://github.com/SincereXIA/buaa-login.git
 popd
 
 # remove openvpn script security level limit
-sed -i '/--script-security/d' package/network/services/openvpn/files/openvpn.init
+# sed -i '/--script-security/d' package/network/services/openvpn/files/openvpn.init
