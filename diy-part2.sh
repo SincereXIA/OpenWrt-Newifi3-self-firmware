@@ -24,6 +24,9 @@ rm -rf ../lean/luci-theme-argon
 git clone --depth=1 https://github.com/rufengsuixing/luci-app-onliner.git
 # Add Buaa-login
 git clone --depth=1 https://github.com/SincereXIA/buaa-login.git
+
+# Add Nat6-helper
+git clone --depth=1 https://github.com/Ausaci/luci-app-nat6-helper.git
 popd
 
 # remove openvpn script security level limit
